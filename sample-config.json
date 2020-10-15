@@ -1,0 +1,15 @@
+{
+    "bridge": {
+        "name": "Your Homebridge"
+    },
+    "description": "It's my home!",
+    "platforms": [],
+    "accessories": [
+        {
+            "accessory": "Co2Monitor",
+            "name": "CO2 Livingroom",
+            "humidity": true,
+            "co2threshold": 1200
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "homebridge-co2monitor",
+  "version": "0.1.0",
+  "description": "Homebridge plugin for TFA Dostmann USB CO2 monitors",
+  "license": "BSD-3-Clause",
+  "keywords": [
+    "homebridge-plugin"
+  ],
+  "engines": {
+    "node": ">=10.0.0",
+    "homebridge": ">=0.2.0"
+  },
+  "author": {
+    "name": "Sebastian Lauber"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/slauber/homebridge-co2monitor.git"
+  },
+  "dependencies": {
+    "node-co2-monitor": "^0.3.0"
+  }
+}
